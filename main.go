@@ -24,7 +24,13 @@ func main() {
 	//user, _ := models.GetUser(2)
 	//user.CreateTodo("this is content.")
 
-	t, _ := models.GetTodo(1)
-	fmt.Println(t)
+	//t, _ := models.GetTodo(1)
+	//fmt.Println(t)
+
+	//user, _ := models.GetUser(2)
+	//user.CreateTodo("this is second content.")
+
+	todos, _ := models.GetTodos()
+	fmt.Println(todos)
 
 }
