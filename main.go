@@ -33,8 +33,13 @@ func main() {
 	//todos, _ := models.GetTodos()
 	//fmt.Println(todos)
 
-	user, _ := models.GetUser(2)
-	t, _ := user.GetTodosByUser()
-	fmt.Println(t)
+	//user, _ := models.GetUser(2)
+
+	t, _ := models.GetTodo(1)
+	//t.Content = "updated2"
+	//t.UserID = 3
+	//t.UpdateTodo()
+
+	t.DeleteTodo()
 
 }
